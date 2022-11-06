@@ -1,16 +1,19 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="/favicon.ico"
+        />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className="description">
@@ -18,12 +21,18 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
+          <a
+            href="https://nextjs.org/docs"
+            className="card"
+          >
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a
+            href="https://nextjs.org/learn"
+            className="card"
+          >
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
@@ -41,9 +50,7 @@ export default function Home() {
             className="card"
           >
             <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
       </main>
@@ -55,7 +62,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          <img
+            src="/vercel.svg"
+            alt="Vercel"
+            className="logo"
+          />
         </a>
       </footer>
 
@@ -134,8 +145,8 @@ export default function Home() {
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+          font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+            Bitstream Vera Sans Mono, Courier New, monospace;
         }
 
         .grid {
@@ -190,14 +201,16 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
+      <style
+        jsx
+        global
+      >{`
         html,
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+            Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         }
 
         * {
@@ -205,5 +218,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
